@@ -12,14 +12,15 @@
 # Traducerea inițială, făcută de R-GC, pentru versiunea dos2unix 7.5.2-beta2, noi-2023.
 # Traducerea inițială, făcută de R-GC, pentru versiunea dos2unix 7.5.3-beta8, mai-2025.
 # Traducerea inițială, făcută de R-GC, pentru versiunea dos2unix 7.5.5-beta3, mar-2026.
+# Traducerea inițială, făcută de R-GC, pentru versiunea dos2unix 7.5.7-beta3, mar-2026.
 # Actualizare a traducerii pentru versiunea Y, făcută de X,Y(luna-anul).
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: dos2unix 7.5.5-beta3\n"
+"Project-Id-Version: dos2unix 7.5.7-beta3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-18 23:17+0200\n"
-"PO-Revision-Date: 2026-03-26 14:20+0100\n"
+"POT-Creation-Date: 2026-08-19 08:03+0200\n"
+"PO-Revision-Date: 2026-08-19 17:24+0200\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -451,66 +452,66 @@ msgstr "Cu suport pentru păstrarea dreptului de proprietate asupra fișierelor 
 msgid "Without support to preserve the user and group ownership of files.\n"
 msgstr "Fără suport pentru păstrarea dreptului de proprietate asupra fișierelor de către utilizator și grup.\n"
 
-#: common.c:976
+#: common.c:978
 msgid "Path for temporary output file is too long:"
 msgstr "Ruta pentru fișierul de ieșire temporar este prea lungă:"
 
-#: common.c:1262 common.c:1269 common.c:1276 common.c:1283 common.c:1295
-#: common.c:1302
+#: common.c:1264 common.c:1271 common.c:1278 common.c:1285 common.c:1297
+#: common.c:1304
 #, c-format
 msgid "Writing %s BOM.\n"
 msgstr "Se scrie %s BOM.\n"
 
-#: common.c:1262 common.c:1315 common.c:1980 common.c:2001
+#: common.c:1264 common.c:1317 common.c:1983 common.c:2004
 msgid "UTF-16LE"
 msgstr "UTF-16LE"
 
-#: common.c:1269 common.c:1318 common.c:1982 common.c:2003
+#: common.c:1271 common.c:1320 common.c:1985 common.c:2006
 msgid "UTF-16BE"
 msgstr "UTF-16BE"
 
-#: common.c:1276 common.c:1295 common.c:1324 common.c:1993
+#: common.c:1278 common.c:1297 common.c:1326 common.c:1996
 msgid "GB18030"
 msgstr "GB18030"
 
-#: common.c:1283 common.c:1302 common.c:1321 common.c:1995
+#: common.c:1285 common.c:1304 common.c:1323 common.c:1998
 msgid "UTF-8"
 msgstr "UTF-8"
 
-#: common.c:1347
+#: common.c:1349
 #, c-format
 msgid "Input file %s has %s BOM.\n"
 msgstr "Fișierul de intrare %s are BOM %s.\n"
 
-#: common.c:1388 common.c:1430
+#: common.c:1390 common.c:1432
 msgid "Assuming UTF-16LE encoding.\n"
 msgstr "Se presupune codificarea UTF-16LE.\n"
 
-#: common.c:1392 common.c:1434
+#: common.c:1394 common.c:1436
 msgid "Assuming UTF-16BE encoding.\n"
 msgstr "Se presupune codificarea UTF-16BE.\n"
 
-#: common.c:1594
+#: common.c:1596
 #, c-format
 msgid "problems resolving symbolic link '%s'\n"
 msgstr "probleme cu rezolvarea legăturii simbolice „%s”\n"
 
-#: common.c:1612
+#: common.c:1614
 #, c-format
 msgid "Failed to open temporary output file: %s\n"
 msgstr "Nu s-a putut deschide fișierul de ieșire temporar: %s\n"
 
-#: common.c:1624
+#: common.c:1626
 #, c-format
 msgid "using %s as temporary file\n"
 msgstr "se folosește %s ca fișier temporar\n"
 
-#: common.c:1678 common.c:1706
+#: common.c:1680 common.c:1708
 #, c-format
 msgid "Failed to change the permissions of temporary output file %s:"
 msgstr "A eșuat schimbarea permisiunilor fișierului de ieșire temporar %s:"
 
-#: common.c:1694
+#: common.c:1696
 #, c-format
 msgid "The user and/or group ownership of file %s is not preserved.\n"
 msgstr "Utilizatorul și/sau grupul proprietar al fișierului %s nu este păstrat.\n"
@@ -528,102 +529,102 @@ msgstr "Utilizatorul și/sau grupul proprietar al fișierului %s nu este păstra
 # rămîne cu această impresie... că lipsește ceva.
 # ***
 # Corecție aplicată!
-#: common.c:1716
+#: common.c:1718
 #, c-format
 msgid "Failed to change the owner and group of temporary output file %s:"
 msgstr "A eșuat schimbarea utilizatorului și grupului proprietar al fișierului de ieșire temporar %s:"
 
-#: common.c:1773
+#: common.c:1775
 #, c-format
 msgid "problems renaming '%s' to '%s':"
 msgstr "probleme la redenumirea lui „%s” în „%s”:"
 
-#: common.c:1777
+#: common.c:1779
 #, c-format
 msgid "          which is the target of symbolic link '%s'\n"
 msgstr "          care este ținta legăturii simbolice „%s”\n"
 
-#: common.c:1779
+#: common.c:1781
 #, c-format
 msgid "          output file remains in '%s'\n"
 msgstr "          fișierul de ieșire rămâne în „%s”\n"
 
-#: common.c:1955 common.c:2050
+#: common.c:1958 common.c:2053
 #, c-format
 msgid "Skipping binary file %s\n"
 msgstr "Se omite fișierul binar %s\n"
 
-#: common.c:1958 common.c:2053
+#: common.c:1961 common.c:2056
 #, c-format
 msgid "code page %d is not supported.\n"
 msgstr "pagina de cod %d nu este acceptată.\n"
 
-#: common.c:1962 common.c:2057 common.c:2145
+#: common.c:1965 common.c:2060 common.c:2148
 #, c-format
 msgid "Skipping UTF-16 file %s, the size of wchar_t is %d bytes.\n"
 msgstr "Se omite fișierul UTF-16 %s, dimensiunea lui wchar_t este de %d octeți.\n"
 
-#: common.c:1965 common.c:2060
+#: common.c:1968 common.c:2063
 #, c-format
 msgid "Skipping UTF-16 file %s, an UTF-16 conversion error occurred on line %u.\n"
 msgstr "Se omite fișierul UTF-16 %s, a apărut o eroare de conversie UTF-16 pe linia %u.\n"
 
-#: common.c:1969 common.c:2064
+#: common.c:1972 common.c:2067
 #, c-format
 msgid "Skipping UTF-16 file %s, UTF-16 conversion is not supported in this version of %s.\n"
 msgstr "Se omite fișierul UTF-16 %s, conversia UTF-16 nu este acceptată în această versiune a %s.\n"
 
-#: common.c:2035 common.c:2134
+#: common.c:2038 common.c:2137
 #, c-format
 msgid "Skipping %s, not a regular file.\n"
 msgstr "Se omite %s, nu este un fișier obișnuit.\n"
 
-#: common.c:2039
+#: common.c:2042
 #, c-format
 msgid "Skipping %s, output file %s is a symbolic link.\n"
 msgstr "Se omite %s, fișierul de ieșire %s este o legătură simbolică.\n"
 
-#: common.c:2041
+#: common.c:2044
 #, c-format
 msgid "Skipping symbolic link %s.\n"
 msgstr "Se omite legătura simbolică %s.\n"
 
-#: common.c:2044 common.c:2139
+#: common.c:2047 common.c:2142
 #, c-format
 msgid "Skipping symbolic link %s, target is not a regular file.\n"
 msgstr "Se omite legătura simbolică %s, ținta nu este un fișier obișnuit.\n"
 
-#: common.c:2047
+#: common.c:2050
 #, c-format
 msgid "Skipping %s, target of symbolic link %s is not a regular file.\n"
 msgstr "Se omite %s, ținta legăturii simbolice %s nu este un fișier obișnuit.\n"
 
-#: common.c:2072
+#: common.c:2075
 #, c-format
 msgid "converting file %s to file %s in Unix format...\n"
 msgstr "se convertește fișierul %s în fișierul %s în formatul Unix...\n"
 
-#: common.c:2074
+#: common.c:2077
 #, c-format
 msgid "converting file %s to Unix format...\n"
 msgstr "se convertește fișierul %s la formatul Unix...\n"
 
-#: common.c:2078
+#: common.c:2081
 #, c-format
 msgid "converting file %s to file %s in Mac format...\n"
 msgstr "se convertește fișierul %s în fișierul %s în formatul Mac...\n"
 
-#: common.c:2080
+#: common.c:2083
 #, c-format
 msgid "converting file %s to Mac format...\n"
 msgstr "se convertește fișierul %s la formatul Mac...\n"
 
-#: common.c:2083
+#: common.c:2086
 #, c-format
 msgid "converting file %s to file %s in DOS format...\n"
 msgstr "se convertește fișierul %s în fișierul %s în formatul DOS...\n"
 
-#: common.c:2085
+#: common.c:2088
 #, c-format
 msgid "converting file %s to DOS format...\n"
 msgstr "se convertește fișierul %s la formatul DOS...\n"
@@ -634,7 +635,7 @@ msgstr "se convertește fișierul %s la formatul DOS...\n"
 #. 3rd %s is encoding of output file.
 #. 4th %s is name of output file.
 #. E.g.: converting UTF-16LE file in.txt to UTF-8 file out.txt in Unix format...
-#: common.c:2097
+#: common.c:2100
 #, c-format
 msgid "converting %s file %s to %s file %s in Unix format...\n"
 msgstr "se convertește fișierul %2$s (%1$s) în fișierul %4$s (%3$s) în formatul Unix...\n"
@@ -644,105 +645,105 @@ msgstr "se convertește fișierul %2$s (%1$s) în fișierul %4$s (%3$s) în form
 #. 2nd %s is name of input file.
 #. 3rd %s is encoding of output (input file is overwritten).
 #. E.g.: converting UTF-16LE file foo.txt to UTF-8 Unix format...
-#: common.c:2104
+#: common.c:2107
 #, c-format
 msgid "converting %s file %s to %s Unix format...\n"
 msgstr "se convertește fișierul %2$s (%1$s) în formatul Unix (%3$s)...\n"
 
-#: common.c:2108
+#: common.c:2111
 #, c-format
 msgid "converting %s file %s to %s file %s in Mac format...\n"
 msgstr "se convertește fișierul %2$s (%1$s) în fișierul %4$s (%3$s) în formatul Mac...\n"
 
-#: common.c:2110
+#: common.c:2113
 #, c-format
 msgid "converting %s file %s to %s Mac format...\n"
 msgstr "se convertește fișierul %2$s (%1$s) în formatul Mac (%3$s)...\n"
 
-#: common.c:2113
+#: common.c:2116
 #, c-format
 msgid "converting %s file %s to %s file %s in DOS format...\n"
 msgstr "se convertește fișierul %2$s (%1$s) în fișierul %4$s (%3$s) în formatul DOS...\n"
 
-#: common.c:2115
+#: common.c:2118
 #, c-format
 msgid "converting %s file %s to %s DOS format...\n"
 msgstr "se convertește fișierul %2$s (%1$s) în formatul DOS (%3$s)...\n"
 
-#: common.c:2122
+#: common.c:2125
 #, c-format
 msgid "problems converting file %s to file %s\n"
 msgstr "probleme la conversia fișierului %s în fișierul %s\n"
 
-#: common.c:2124
+#: common.c:2127
 #, c-format
 msgid "problems converting file %s\n"
 msgstr "probleme la conversia fișierului %s\n"
 
-#: common.c:2287 common.c:2344
-#, fuzzy, c-format
+#: common.c:2290 common.c:2347
+#, c-format
 msgid "cannot read from input file %s:"
 msgstr "nu se poate citi din fișierul de intrare %s:"
 
-#: common.c:2527
+#: common.c:2531
 #, c-format
 msgid "wrong flag '%c' for option -i or --info\n"
 msgstr "fanion greșit „%c” pentru opțiunea „-i” sau „--info”\n"
 
-#: common.c:2668 common.c:2711
+#: common.c:2672 common.c:2715
 #, c-format
 msgid "active code page: %d\n"
 msgstr "pagina de cod activă: %d\n"
 
-#: common.c:2723
+#: common.c:2727
 #, c-format
 msgid "invalid %s conversion mode specified\n"
 msgstr "modul de conversie specificat %s, nu este valid\n"
 
-#: common.c:2731 common.c:2761
+#: common.c:2735 common.c:2765
 #, c-format
 msgid "option '%s' requires an argument\n"
 msgstr "opțiunea „%s” necesită un argument\n"
 
-#: common.c:2753
+#: common.c:2757
 #, c-format
 msgid "invalid %s display encoding specified\n"
 msgstr "codificarea specificată pentru afișare %s, nu este validă\n"
 
-#: common.c:2773 common.c:2787 common.c:2799
+#: common.c:2777 common.c:2791 common.c:2803
 #, c-format
 msgid "target of file %s not specified in new-file mode\n"
 msgstr "ținta fișierului %s nu este specificată în modul-fișier_nou\n"
 
-#: common.c:2882
-#, fuzzy, c-format
+#: common.c:2886
+#, c-format
 msgid "cannot read from input file: %s\n"
 msgstr "nu se poate citi din fișierul de intrare: %s\n"
 
-#: common.c:2892 common.c:2904
-#, fuzzy, c-format
+#: common.c:2896 common.c:2908
+#, c-format
 msgid "cannot write to output file: %s\n"
 msgstr "nu se poate scrie în fișierul de ieșire: %s\n"
 
-#: common.c:2935 common.c:2976
+#: common.c:2939 common.c:2980
 msgid "error: Invalid surrogate pair. Missing low surrogate.\n"
 msgstr "eroare: pereche surogat nevalidă -- partea inferioară lipsește\n"
 
-#: common.c:2994
+#: common.c:2998
 msgid "error: Invalid surrogate pair. Missing high surrogate.\n"
 msgstr "eroare: pereche surogat nevalidă -- partea superioară lipsește\n"
 
-#: common.c:3097
+#: common.c:3101
 #, c-format
 msgid "Converted %u out of %u line breaks.\n"
 msgstr "Au fost convertite %u întreruperi de linie dintr-un total de %u.\n"
 
-#: common.c:3111
+#: common.c:3115
 #, c-format
 msgid "Binary symbol 0x00%02X found at line %u\n"
 msgstr "Simbol binar 0x00%02X găsit la linia %u\n"
 
-#: common.c:3135
+#: common.c:3139
 #, c-format
 msgid "Binary symbol 0x%02X found at line %u\n"
 msgstr "Simbol binar 0x%02X găsit la linia %u\n"

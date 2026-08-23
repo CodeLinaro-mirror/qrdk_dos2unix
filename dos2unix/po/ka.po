@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dos2unix 7.5.3-beta8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-18 23:17+0200\n"
+"POT-Creation-Date: 2026-08-23 13:26+0200\n"
 "PO-Revision-Date: 2025-10-12 17:52+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <(nothing)>\n"
@@ -392,166 +392,166 @@ msgstr "ფაილების მომხმარებლისა და 
 msgid "Without support to preserve the user and group ownership of files.\n"
 msgstr "ფაილების მომხმარებლისა და ჯგუფის შენარჩუნების მხარდაჭერის გარეშე.\n"
 
-#: common.c:976
+#: common.c:978
 msgid "Path for temporary output file is too long:"
 msgstr "ბილიკი დროებითი გამოტანის ფაილამდე ძალიან გრძელია:"
 
-#: common.c:1262 common.c:1269 common.c:1276 common.c:1283 common.c:1295
-#: common.c:1302
+#: common.c:1264 common.c:1271 common.c:1278 common.c:1285 common.c:1297
+#: common.c:1304
 #, c-format
 msgid "Writing %s BOM.\n"
 msgstr "%s BOM-ის ჩაწერა.\n"
 
-#: common.c:1262 common.c:1315 common.c:1980 common.c:2001
+#: common.c:1264 common.c:1317 common.c:1983 common.c:2004
 msgid "UTF-16LE"
 msgstr "UTF-16LE"
 
-#: common.c:1269 common.c:1318 common.c:1982 common.c:2003
+#: common.c:1271 common.c:1320 common.c:1985 common.c:2006
 msgid "UTF-16BE"
 msgstr "UTF-16BE"
 
-#: common.c:1276 common.c:1295 common.c:1324 common.c:1993
+#: common.c:1278 common.c:1297 common.c:1326 common.c:1996
 msgid "GB18030"
 msgstr "GB18030"
 
-#: common.c:1283 common.c:1302 common.c:1321 common.c:1995
+#: common.c:1285 common.c:1304 common.c:1323 common.c:1998
 msgid "UTF-8"
 msgstr "UTF-8"
 
-#: common.c:1347
+#: common.c:1349
 #, c-format
 msgid "Input file %s has %s BOM.\n"
 msgstr "შეყვანის ფაილს (%s) %s BOM-ი გააჩნია\n"
 
-#: common.c:1388 common.c:1430
+#: common.c:1390 common.c:1432
 msgid "Assuming UTF-16LE encoding.\n"
 msgstr "ვთვლი, რომ კოდირება UTF-16LE-ა.\n"
 
-#: common.c:1392 common.c:1434
+#: common.c:1394 common.c:1436
 msgid "Assuming UTF-16BE encoding.\n"
 msgstr "ვთვლი, რომ კოდირება UTF-16BE-ა.\n"
 
-#: common.c:1594
+#: common.c:1596
 #, c-format
 msgid "problems resolving symbolic link '%s'\n"
 msgstr "სიმბმულის ('%s') ამოხსნის შეცდომა\n"
 
-#: common.c:1612
+#: common.c:1614
 #, c-format
 msgid "Failed to open temporary output file: %s\n"
 msgstr "დროებითი გამოტანის ფაილის შექმნის შეცდომა: %s\n"
 
-#: common.c:1624
+#: common.c:1626
 #, c-format
 msgid "using %s as temporary file\n"
 msgstr "'%s'-ის დროებით ფაილად გამოყენება\n"
 
-#: common.c:1678 common.c:1706
+#: common.c:1680 common.c:1708
 #, c-format
 msgid "Failed to change the permissions of temporary output file %s:"
 msgstr "დროებითი გამოტანის ფაილის (%s) წვდომების შეცვლის შეცდომა:"
 
-#: common.c:1694
+#: common.c:1696
 #, c-format
 msgid "The user and/or group ownership of file %s is not preserved.\n"
 msgstr "ფაილის (%s) მფლობელი მომხმარებელი და ჯგუფი შენარჩუნებული არ იქნება.\n"
 
-#: common.c:1716
+#: common.c:1718
 #, c-format
 msgid "Failed to change the owner and group of temporary output file %s:"
 msgstr "დროებითი გამოტანის ფაილის (%s) მფლობელი მომხმარებლისა და ჯგუფის შეცვლის შეცდომა:"
 
-#: common.c:1773
+#: common.c:1775
 #, c-format
 msgid "problems renaming '%s' to '%s':"
 msgstr "პრობლემა '%s' -ის სახელის '%s'-ზე შეცვლისას:"
 
-#: common.c:1777
+#: common.c:1779
 #, c-format
 msgid "          which is the target of symbolic link '%s'\n"
 msgstr "          რომელიც სიმბოლური ბმულის '%s' სამიზნეა\n"
 
-#: common.c:1779
+#: common.c:1781
 #, c-format
 msgid "          output file remains in '%s'\n"
 msgstr "          გამოტანის ფაილი '%s'-ში დარჩება\n"
 
-#: common.c:1955 common.c:2050
+#: common.c:1958 common.c:2053
 #, c-format
 msgid "Skipping binary file %s\n"
 msgstr "ბინარული ფაილის (%s) გამოტოვება\n"
 
-#: common.c:1958 common.c:2053
+#: common.c:1961 common.c:2056
 #, c-format
 msgid "code page %d is not supported.\n"
 msgstr "კოდის გვერდი %d მხარდაჭერილი არაა.\n"
 
-#: common.c:1962 common.c:2057 common.c:2145
+#: common.c:1965 common.c:2060 common.c:2148
 #, c-format
 msgid "Skipping UTF-16 file %s, the size of wchar_t is %d bytes.\n"
 msgstr ""
 
-#: common.c:1965 common.c:2060
+#: common.c:1968 common.c:2063
 #, c-format
 msgid "Skipping UTF-16 file %s, an UTF-16 conversion error occurred on line %u.\n"
 msgstr ""
 
-#: common.c:1969 common.c:2064
+#: common.c:1972 common.c:2067
 #, c-format
 msgid "Skipping UTF-16 file %s, UTF-16 conversion is not supported in this version of %s.\n"
 msgstr ""
 
-#: common.c:2035 common.c:2134
+#: common.c:2038 common.c:2137
 #, c-format
 msgid "Skipping %s, not a regular file.\n"
 msgstr "%s-ის გამოტოვება. ის ჩვეულებრივი ფაილი არაა.\n"
 
-#: common.c:2039
+#: common.c:2042
 #, c-format
 msgid "Skipping %s, output file %s is a symbolic link.\n"
 msgstr ""
 
-#: common.c:2041
+#: common.c:2044
 #, c-format
 msgid "Skipping symbolic link %s.\n"
 msgstr "%s: სიმბმულია. გამოტოვება.\n"
 
-#: common.c:2044 common.c:2139
+#: common.c:2047 common.c:2142
 #, c-format
 msgid "Skipping symbolic link %s, target is not a regular file.\n"
 msgstr "%s: სიმბმულია. გამოტოვება. სამიზნე ჩვეულებრივი ფაილი არაა.\n"
 
-#: common.c:2047
+#: common.c:2050
 #, c-format
 msgid "Skipping %s, target of symbolic link %s is not a regular file.\n"
 msgstr ""
 
-#: common.c:2072
+#: common.c:2075
 #, c-format
 msgid "converting file %s to file %s in Unix format...\n"
 msgstr "ფაილის (%s) იუნიქსის ფორმატის მქონე ფაილში (%s) გადაყვანა...\n"
 
-#: common.c:2074
+#: common.c:2077
 #, c-format
 msgid "converting file %s to Unix format...\n"
 msgstr "ფაილის (%s) იუნიქსის ფორმატში გადაყვანა...\n"
 
-#: common.c:2078
+#: common.c:2081
 #, c-format
 msgid "converting file %s to file %s in Mac format...\n"
 msgstr "ფაილის (%s) Mac-ის ფორმატის მქონე ფაილში (%s) გადაყვანა...\n"
 
-#: common.c:2080
+#: common.c:2083
 #, c-format
 msgid "converting file %s to Mac format...\n"
 msgstr "ფაილის (%s) Mac-ის ფორმატში გადაყვანა...\n"
 
-#: common.c:2083
+#: common.c:2086
 #, c-format
 msgid "converting file %s to file %s in DOS format...\n"
 msgstr "ფაილის (%s) DOS-ის ფორმატის მქონე ფაილში (%s) გადაყვანა...\n"
 
-#: common.c:2085
+#: common.c:2088
 #, c-format
 msgid "converting file %s to DOS format...\n"
 msgstr "ფაილის (%s) DOS-ის ფორმატში გადაყვანა...\n"
@@ -562,7 +562,7 @@ msgstr "ფაილის (%s) DOS-ის ფორმატში გადა
 #. 3rd %s is encoding of output file.
 #. 4th %s is name of output file.
 #. E.g.: converting UTF-16LE file in.txt to UTF-8 file out.txt in Unix format...
-#: common.c:2097
+#: common.c:2100
 #, c-format
 msgid "converting %s file %s to %s file %s in Unix format...\n"
 msgstr "მიმდინარეობს გადაყვანა %s ფაილის %s %s ფაილში %s Unix ფორმატში...\n"
@@ -572,105 +572,105 @@ msgstr "მიმდინარეობს გადაყვანა %s ფ�
 #. 2nd %s is name of input file.
 #. 3rd %s is encoding of output (input file is overwritten).
 #. E.g.: converting UTF-16LE file foo.txt to UTF-8 Unix format...
-#: common.c:2104
+#: common.c:2107
 #, c-format
 msgid "converting %s file %s to %s Unix format...\n"
 msgstr "მიმდინარეობს გადაყვანა %s ფაილის %s %s Unix ფორმატში...\n"
 
-#: common.c:2108
+#: common.c:2111
 #, c-format
 msgid "converting %s file %s to %s file %s in Mac format...\n"
 msgstr ""
 
-#: common.c:2110
+#: common.c:2113
 #, c-format
 msgid "converting %s file %s to %s Mac format...\n"
 msgstr ""
 
-#: common.c:2113
+#: common.c:2116
 #, c-format
 msgid "converting %s file %s to %s file %s in DOS format...\n"
 msgstr ""
 
-#: common.c:2115
+#: common.c:2118
 #, c-format
 msgid "converting %s file %s to %s DOS format...\n"
 msgstr ""
 
-#: common.c:2122
+#: common.c:2125
 #, c-format
 msgid "problems converting file %s to file %s\n"
 msgstr ""
 
-#: common.c:2124
+#: common.c:2127
 #, c-format
 msgid "problems converting file %s\n"
 msgstr "ფაილის (%s) გადაყვანის შეცდომა\n"
 
-#: common.c:2287 common.c:2344
+#: common.c:2290 common.c:2347
 #, fuzzy, c-format
 msgid "cannot read from input file %s:"
 msgstr "შეტანის ფაილის წაკითხვის შეცდომა: %s:"
 
-#: common.c:2527
+#: common.c:2531
 #, c-format
 msgid "wrong flag '%c' for option -i or --info\n"
 msgstr ""
 
-#: common.c:2668 common.c:2711
+#: common.c:2672 common.c:2715
 #, c-format
 msgid "active code page: %d\n"
 msgstr "აქტიური კოდის გვერდი: %d\n"
 
-#: common.c:2723
+#: common.c:2727
 #, c-format
 msgid "invalid %s conversion mode specified\n"
 msgstr "მითითებულია არასწორი %s გადაყვანის რეჟიმი\n"
 
-#: common.c:2731 common.c:2761
+#: common.c:2735 common.c:2765
 #, c-format
 msgid "option '%s' requires an argument\n"
 msgstr "პარამეტრს ('%s') არგუმენტი ესაჭიროება\n"
 
-#: common.c:2753
+#: common.c:2757
 #, c-format
 msgid "invalid %s display encoding specified\n"
 msgstr "მითითებული (%s) ჩვენების კოდირება არასწორია\n"
 
-#: common.c:2773 common.c:2787 common.c:2799
+#: common.c:2777 common.c:2791 common.c:2803
 #, c-format
 msgid "target of file %s not specified in new-file mode\n"
 msgstr "ახალი-ფაილის რეჟიმში ფაილისთვის %s სამიზნე მითითებული არაა\n"
 
-#: common.c:2882
+#: common.c:2886
 #, fuzzy, c-format
 msgid "cannot read from input file: %s\n"
 msgstr "შეტანის ფაილის წაკითხვის შეცდომა: %s\n"
 
-#: common.c:2892 common.c:2904
+#: common.c:2896 common.c:2908
 #, fuzzy, c-format
 msgid "cannot write to output file: %s\n"
 msgstr "გამოტანის ფაილში ჩაწერის შეცდომა: %s\n"
 
-#: common.c:2935 common.c:2976
+#: common.c:2939 common.c:2980
 msgid "error: Invalid surrogate pair. Missing low surrogate.\n"
 msgstr "შეცდომა: სუროგატების არასწორი წყვილი. დაბალი სუროგატი მითითებული არაა.\n"
 
-#: common.c:2994
+#: common.c:2998
 msgid "error: Invalid surrogate pair. Missing high surrogate.\n"
 msgstr "შეცდომა: სუროგატების არასწორი წყვილი. მაღალი სუროგატი მითითებული არაა.\n"
 
-#: common.c:3097
+#: common.c:3101
 #, c-format
 msgid "Converted %u out of %u line breaks.\n"
 msgstr ""
 
-#: common.c:3111
+#: common.c:3115
 #, c-format
 msgid "Binary symbol 0x00%02X found at line %u\n"
 msgstr ""
 
-#: common.c:3135
+#: common.c:3139
 #, c-format
 msgid "Binary symbol 0x%02X found at line %u\n"
 msgstr ""
