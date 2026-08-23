@@ -836,7 +836,7 @@ FILE* OpenInFile(char *ipFN)
 #endif
 }
 
-BufferedStream* buffered_open(FILE *f) {
+BufferedStream* d2u_bsopen(FILE *f) {
     BufferedStream *stream;
 
     if (!f) {
@@ -1572,7 +1572,7 @@ int ConvertNewFile(char *ipInFN, char *ipOutFN, CFlag *ipFlag, const char *progn
     return -1;
   }
 
-  InB=buffered_open(InF);
+  InB=d2u_bsopen(InF);
   if (InB == NULL) {
     if (ipFlag->verbose) {
       ipFlag->error = errno;
@@ -1833,7 +1833,7 @@ int ConvertToStdout(char *ipInFN, CFlag *ipFlag, const char *progname,
     }
     return -1;
   }
-  InB=buffered_open(InF);
+  InB=d2u_bsopen(InF);
   if (InB == NULL) {
     if (ipFlag->verbose) {
       ipFlag->error = errno;
@@ -1922,7 +1922,7 @@ int ConvertStdio(CFlag *ipFlag, const char *progname,
     setmode(fileno(stdin), O_BINARY);
 #endif
 
-    InB=buffered_open(stdin);
+    InB=d2u_bsopen(stdin);
     if (InB == NULL) {
       if (ipFlag->verbose) {
         ipFlag->error = errno;
@@ -2387,7 +2387,7 @@ int GetFileInfo(char *ipInFN, CFlag *ipFlag, const char *progname)
     }
     return -1;
   }
-  InB=buffered_open(InF);
+  InB=d2u_bsopen(InF);
   if (InB == NULL) {
     if (ipFlag->verbose) {
       ipFlag->error = errno;
@@ -2444,7 +2444,7 @@ int GetFileInfoStdio(CFlag *ipFlag, const char *progname)
     setmode(fileno(stdin), O_BINARY);
 #endif
 
-  InB=buffered_open(stdin);
+  InB=d2u_bsopen(stdin);
   if (InB == NULL) {
     if (ipFlag->verbose) {
       ipFlag->error = errno;
