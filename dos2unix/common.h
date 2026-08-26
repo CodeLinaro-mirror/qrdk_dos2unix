@@ -273,7 +273,7 @@ FILE* MakeTempFileFrom(const char *OutFN, char **fname_ret);
 int ResolveSymbolicLink(char *lFN, char **rFN, CFlag *ipFlag, const char *progname);
 
 /* Lookahead buffer to be able to do safe consecutive ungetc() calls (max 4).
-   Standard unget() may fail when called more than once after each other. */
+   Standard ungetc() may fail when called more than once after each other. */
 #define MAX_LOOKAHEAD 4
 typedef struct {
     FILE *file;

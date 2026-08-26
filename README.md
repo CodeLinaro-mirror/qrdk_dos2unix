@@ -1,10 +1,8 @@
-DOS2UNIX
-========
+# DOS2UNIX
 
 DOS/Mac to Unix and vice versa text file format converter.
 
-Description
------------
+## Description
 
 The Dos2unix package includes utilities dos2unix and unix2dos to convert plain
 text files in DOS or Mac format to Unix format and vice versa.
@@ -35,8 +33,7 @@ options "-o" and "-n". Another difference is that the SunOS/Solaris version
 uses by default iso mode conversion while this version uses by default ascii
 mode conversion.
 
-Features
---------
+## Features
 
 * Native language support.
 * Automatically skips binary and non-regular files.
@@ -48,15 +45,12 @@ Features
 * Display file information.
 * Secure.
 
+## Project information
 
-Project information
--------------------
-
-Maintainer: Erwin Waterlander <waterlan@xs4all.nl>
-Git: git clone git://git.code.sf.net/p/dos2unix/dos2unix
-[Home page](https://waterlander.net/dos2unix/)
-[SourceForge project](https://sourceforge.net/projects/dos2unix/)
-[SourceForge website](https://dos2unix.sourceforge.io/)
-[ChangeLog](dos2unix/ChangeLog.txt)
+Maintainer: Erwin Waterlander <waterlan@xs4all.nl>  
+Git: `git clone git://git.code.sf.net/p/dos2unix/dos2unix`  
+[Home page](https://waterlander.net/dos2unix/)  
+[SourceForge project](https://sourceforge.net/projects/dos2unix/)  
+[SourceForge website](https://dos2unix.sourceforge.io/)  
+[ChangeLog](dos2unix/ChangeLog.txt)  
 [NEWS](dos2unix/NEWS.txt)
-
