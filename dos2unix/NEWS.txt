@@ -1,4 +1,4 @@
-2026-??-??: Version 7.5.7
+2026-08-27: Version 7.5.7
 
  * Detect a missing UTF-16 low surrogate at the end of a file.
  * Fixed the processing of files containing only half a BOM.

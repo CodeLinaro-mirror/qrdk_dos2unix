@@ -53,6 +53,7 @@ distlocal:
 
 # Create pgp signature. Required for Debian Linux.
 # See http://narfation.org/2013/06/23/signed-upstream-tarballs-in-debian
+# Target: pgpsign - Create pgp signature.
 pgpsign:
 	cd ..; gpg --detach-sign --armor ${RELEASE_DIR_DOS2UNIX}.tar.gz
 

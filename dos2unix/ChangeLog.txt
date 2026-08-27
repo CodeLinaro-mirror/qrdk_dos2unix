@@ -1,3 +1,6 @@
+2026-08-27 Erwin Waterlander <waterlan@xs4all.nl>
+	* Version 7.5.7
+
 2026-08-18 Erwin Waterlander <waterlan@xs4all.nl>
 	* Safer way to read BOM using a lookahead buffer.
 	  No more use of consecutive ungetc() calls.
